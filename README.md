@@ -1,37 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🏥 Sistema de Agendamento para Clínica
 
-## Getting Started
+Aplicação web desenvolvida com **Next.js** que permite aos usuários realizarem cadastro, login e agendamento de consultas de forma simples e intuitiva.
 
-First, run the development server:
+## 🚀 Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* 👤 Cadastro de usuários
+* 🔐 Login de usuários
+* 📅 Agendamento de consultas
+* 📋 Visualização de agendamentos
+* ❌ Cancelamento de consultas
+
+## 💻 Tecnologias utilizadas
+
+* Next.js
+* React
+* TypeScript
+* CSS (ou Tailwind, se você usou)
+* API Routes (Next.js)
+
+## 📂 Estrutura do projeto
+
+```id="k9l0qv"
+src/
+├── app/
+│   ├── api/          # Rotas da API (back-end)
+│   ├── components/   # Componentes reutilizáveis
+│   ├── layout.tsx    # Layout principal
+│   ├── page.tsx      # Página inicial
+│   └── globals.css   # Estilos globais
+├── actions.ts        # Funções de lógica da aplicação
+
+public/               # Arquivos públicos
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ▶️ Como executar o projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash id="l2f9qa"
+# Clone o repositório
+git clone https://github.com/RodrigoMartins8891/site-clinica-agendamento.git
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Acesse a pasta
+cd site-clinica-agendamento
 
-## Learn More
+# Instale as dependências
+npm install
 
-To learn more about Next.js, take a look at the following resources:
+# Execute o projeto
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Acesse no navegador
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```id="0vdn3l"
+http://localhost:3000
+```
 
-## Deploy on Vercel
+## 🎯 Objetivo do projeto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto foi desenvolvido com foco em praticar desenvolvimento **Full Stack com Next.js**, simulando um sistema real de clínica para gerenciamento de usuários e agendamentos.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-"# site-clinica-agendamento" 
+## 📌 Melhorias futuras
+
+* Integração com banco de dados (MongoDB, PostgreSQL, etc.)
+* Autenticação segura (JWT ou NextAuth)
+* Deploy da aplicação (Vercel)
+* Interface mais refinada (UX/UI)
+
+## 📸 Demonstração
+
+* Link YouTube: https://www.youtube.com/watch?v=XnXOGm3P_tQ
+
+## 👨‍💻 Autor
+
+Rodrigo Martins de Oliveira
+Desenvolvedor Full Stack Júnior
+
+* GitHub: https://github.com/RodrigoMartins8891
+* LinkedIn: https://linkedin.com/in/rodrigo-martins-de-oliveira1988
